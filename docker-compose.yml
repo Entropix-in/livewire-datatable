@@ -1,7 +1,7 @@
 services:
   # Main php runner
   php:
-    image: webdevops/php-apache-dev:8.3-alpine
+    image: webdevops/php-apache-dev:8.2-alpine
     container_name: laravel_php
     ports:
       - "80:80"
