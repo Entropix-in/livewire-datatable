@@ -2,9 +2,9 @@
 
 namespace Entropix\LivewireDatatable\Tests;
 
+use Entropix\LivewireDatatable\LivewireDatatableServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Entropix\LivewireDatatable\LivewireDatatableServiceProvider;
 
 class TestCase extends Orchestra
 {

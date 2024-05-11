@@ -2,9 +2,9 @@
 
 namespace Entropix\LivewireDatatable;
 
+use Entropix\LivewireDatatable\Commands\LivewireDatatableCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Entropix\LivewireDatatable\Commands\LivewireDatatableCommand;
 
 class LivewireDatatableServiceProvider extends PackageServiceProvider
 {
